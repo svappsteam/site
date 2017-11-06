@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GLORIOUS HUB</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>		 
+<body>
+	<!--Header Section Starts Here-->
+	<nav class="navbar navbar-default ">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+      <a class="navbar-brand" href="#myPage"><img src="images/logo1.jpg" alt="no image" height="60px"></a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="active" href="#">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+         <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">WHAT WE DO
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Despile & Leadership Program</a></li>
+            <li><a href="#">Childrens Program</a></li>
+            <li><a href="#">Adult Ministries</a></li> 
+             <li><a href="#">Evangalism</a></li> 
+              <li><a href="#">Bible Training</a></li> 
+               <li><a href="wm.html">Women Fellowship</a></li> 
+               <li><a href="#">Village Ministry</a></li> 
+          </ul>
+        </li>
+        <li><a href="getinvolved.html">GET INVOLVED</a></li>
+      <li><a href="#">MEDIA</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      <li><a href="contact.html">CONTACT US</a></li>
+      </ul>      
+    </div>
+  </div>
+</nav>
+<!--Header Section Ends Here-->
+<!--Slider Section Starts Here-->
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/slider5.jpg" width="100%" alt="...">
+      <div class="carousel-caption">
+        <h3>Show me your ways, Lord,
+teach me your paths.</h3>
+      </div> 
+    </div>
+    <div class="item">
+      <img src="images/slider5.jpg"  width="100%"alt="...">
+      <div class="carousel-caption">
+        <h3>Show me your ways, Lord,
+teach me your paths.</h3>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/slider5.jpg" width="100%" alt="...">
+      <div class="carousel-caption">
+        <h3>Show me your ways, Lord,
+teach me your paths.</h3>
+      </div>
+    </div>
+  </div>
+  </div>
+ <!--Slider Section Ends Here-->
+     <!--Donate Now Section Starts-->
+<!--<div class="login_section">
+        
+        <div class="student-login"> 
+            <a href="#">Donate Now </a> 
+        </div>
+    </div>-->
+    <!--Donate Now Section Ends-->
+    <!--Slider Script Section Starts Here-->
+    <script>
+      $(document).ready(function() {
+  $('.carousel').carousel();
+  $('.carousel').on('slide.bs.carousel', function () {
+    $('.carousel-caption h3').animate({
+      marginLeft: "+=20%",
+          fontSize: "1px",
+      opacity: 0
+    }, 50);
+  })
+  $('.carousel').on('slid.bs.carousel', function () {
+    $('.carousel-caption h3').animate({
+      marginLeft: 0,
+          fontSize: "55px",
+      opacity: 0.8
+    }, 600);
+  })
+});
+  </script>
+<!--Slider Script Section Ends Here-->       
+   <!--Mission-Vission Section Starts Here-->
+   <div class="mv-sec" >
+   <div class="container">
+    <div class="row">
+      <div class="col-md-4"><img src="images/mission-and-vision.png" alt="no image" style="width:100%;" ></div>
+      <div class="col-md-8">
+        <h4>OUR VISION</h4><p>VISION To see people come into the fullness of God's love, living in new life and hope. Through transformed hearts and minds, a witness in this world, the glory of God is revealed, raising up others in His love.</p>
+      <h4>OUR MISSION</h4><p>MISSION Impacting the All people, youth and children through interactive discipleship programs, Bible teachings, house gatherings and outreach meetings.</p> </div>
+    </div>
+     </div>
+       </div>
+        <!--Mission-Vission Section Ends Here-->
+<!--Footer Section Starts Here-->
+<footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <p style="color:#fff">All Rights Reserved</p>
+                </div>
+                
+                <div class="col-md-6">
+                  <p style="color:#fff">Designed by <a href="https://svapps.in" target="_blank">SVAPPS</a></p>
+                </div>
+              </div>
+            </div>
+          </footer>
+
+         <!--footer Section Ends Here--> 
+</body>
+</html>
